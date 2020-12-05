@@ -10,7 +10,7 @@ const input1 = `123
 7890
 1`
 
-func TestPartOne(t *testing.T) {
+func TestStringToIntSlice(t *testing.T) {
 	var tests = []struct{
 		name string
 		in   string
